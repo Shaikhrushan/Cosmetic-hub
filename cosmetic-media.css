@@ -1,0 +1,143 @@
+@media screen and (max-width: 991px){
+    
+    .nav-toggle {
+        display: block;
+        margin-right: 20px;
+    }
+    .main-nav {
+        overflow: initial;
+    }
+
+    .nav-links {
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 20px;
+        transition: 0.2s ease-in-out;
+    }
+
+    .nav-links.active {
+        left: 0;
+    }
+
+    .nav-links ul{
+        flex-direction: column;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+    }
+    .group-n {
+        font-size: 0.77rem;
+    }
+    .examples-section {
+        height: 700px;
+    }
+    .main-examples-card {
+        height: 1000px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .testimonial {
+        padding: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .cards {
+        display: flex;
+        justify-content: center;
+        height: 800px;
+        /* padding: 0%; */
+    }
+   
+    
+}
+
+
+@media screen and (max-width: 767px) {
+    
+
+    .header-right img {
+        display: none;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .header-left {
+        width: 100%;
+    } 
+    .section-area {
+        width: 100%;
+    }
+    .testimonial {
+        margin-bottom: 40px;
+    }
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr); /* 1 column */
+    }
+    .box {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .main-examples-card {
+        height: auto;
+    }
+    .left-box {
+        background-image: none;
+        margin-top: 0%;
+    }
+    /* .big-feature-section {
+        margin-top: 0;
+    } */
+
+}
+
+
+@media screen and (max-width: 479px) {
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .feature-text {
+        height: auto;
+    }
+    .examples-section {
+        height: 1300px;
+    }
+    .main-examples-card {
+        height: auto;
+    }
+    .footer {
+        display: flex;
+        gap: 0;
+    }
+    .section-card-1 p {
+        line-height: 1rem;
+    }
+    .section-card-2 p {
+        line-height: 1rem;
+    }
+    .left-box {
+        margin-top: 0%;
+    }
+  
+   
+}
